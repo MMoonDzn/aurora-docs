@@ -10,7 +10,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/platform/quickstart"
+      "destination": "start/introduction"
     }
   ],
   "appearance": {
