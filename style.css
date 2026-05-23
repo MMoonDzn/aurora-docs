@@ -48,16 +48,11 @@
 }
 
 #sidebar .nav-anchor span {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+  font-family: "Inter", sans-serif !important;
 }
 
 body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] {
   color: rgb(var(--primary)) !important;
-  font-weight: 600 !important;
 }
 
 body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] span {
@@ -145,5 +140,9 @@ body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] svg {
 
 img.nav-logo {
   max-width: 220px;
-  height: auto;
+  height: 40;
+}
+
+footer a[href*="mintlify"] {
+  display: none !important;
 }
