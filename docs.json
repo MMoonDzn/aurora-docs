@@ -10,7 +10,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "start/introduction"
+      "destination": "/start/introduction"
     }
   ],
   "appearance": {
@@ -19,7 +19,7 @@
   },
 
   "name": "Aurora Docs",
-  "description": "",
+  "description": "Official documentation for Project Aurora.",
   "colors": {
     "primary": "#ff2525",
     "light": "#ff5454",

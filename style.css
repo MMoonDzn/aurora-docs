@@ -146,3 +146,7 @@ img.nav-logo {
 footer a[href*="mintlify"] {
   display: none !important;
 }
+
+[class*="chat-assistant"] {
+  display: none !important;
+}
