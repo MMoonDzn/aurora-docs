@@ -45,9 +45,27 @@
     "directory": "card",
     "pages": [
       "start/introduction",
-      "start/scripts",
-      "start/executors",
-      "start/features"
+      {
+        "group": "Legal",
+        "pages": [
+          "untitled-page-2",
+          "untitled-page-3"
+        ]
+      },
+      {
+        "group": "Product",
+        "pages": [
+          "start/executors",
+          {
+            "group": "Features",
+            "icon": "list",
+            "pages": [
+              "start/features",
+              "untitled-page"
+            ]
+          }
+        ]
+      }
     ]
   },
   "logo": {
