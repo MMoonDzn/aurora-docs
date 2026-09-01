@@ -41,13 +41,6 @@
     "pages": [
       "pages/home/introduction",
       {
-        "group": "Legal",
-        "pages": [
-          "pages/legal/tos",
-          "pages/legal/privacy-policy"
-        ]
-      },
-      {
         "group": "Product",
         "pages": [
           "pages/product/executors",
@@ -59,6 +52,13 @@
               "pages/product/universal"
             ]
           }
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "pages/legal/tos",
+          "pages/legal/privacy-policy"
         ]
       }
     ]
