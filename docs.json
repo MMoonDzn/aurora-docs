@@ -21,7 +21,7 @@
   "name": "Aurora Docs",
   "description": "Official documentation for Project Aurora.",
   "colors": {
-    "primary": "#ff2525",
+    "primary": "#FF2525",
     "light": "#ff5454",
     "dark": "#cc0b0b"
   },
@@ -43,27 +43,11 @@
       ]
     },
     "directory": "card",
-    "groups": [
-      {
-        "group": "Get Started",
-        "icon" : "sparkles",
-        "expanded": true,
-        "pages": [
-          "start/introduction",
-          "start/scripts",
-          "start/executors",
-          "start/features"
-        ]
-      },
-      {
-        "group": "License",
-        "icon": "key",
-        "expanded": true,
-        "pages": [
-          "license/premium",
-          "license/keysys"
-        ]
-      }
+    "pages": [
+      "start/introduction",
+      "start/scripts",
+      "start/executors",
+      "start/features"
     ]
   },
   "logo": {
