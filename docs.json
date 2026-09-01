@@ -44,7 +44,7 @@
     },
     "directory": "card",
     "pages": [
-      "start/introduction",
+      "introduction",
       {
         "group": "Legal",
         "pages": [
@@ -55,7 +55,7 @@
       {
         "group": "Product",
         "pages": [
-          "start/executors",
+          "executors",
           {
             "group": "Features",
             "icon": "list",
