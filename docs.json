@@ -10,7 +10,8 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/start/introduction"
+      "destination": "/pages/home/home.mdx",
+      "permanent": true
     }
   ],
   "appearance": {
@@ -44,24 +45,24 @@
     },
     "directory": "card",
     "pages": [
-      "introduction",
+      "pages/home/introduction",
       {
         "group": "Legal",
         "pages": [
-          "tos",
-          "privacy-policy"
+          "pages/legal/tos",
+          "pages/legal/privacy-policy"
         ]
       },
       {
         "group": "Product",
         "pages": [
-          "executors",
+          "pages/product/executors",
           {
             "group": "Features",
             "icon": "list",
             "pages": [
-              "counterblox",
-              "universal"
+              "pages/product/counterblox",
+              "pages/product/universal"
             ]
           }
         ]
