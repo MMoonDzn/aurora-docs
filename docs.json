@@ -7,13 +7,7 @@
   "background": {
     "decoration": "grid"
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/pages/home/home.mdx",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "appearance": {
     "default": "dark",
     "strict": true
