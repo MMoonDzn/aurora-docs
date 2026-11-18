@@ -49,6 +49,9 @@
             "icon": "list",
             "pages": [
               "counterblox",
+              "kontra",
+              "wanted",
+              "wanted-2",
               "universal"
             ]
           }
